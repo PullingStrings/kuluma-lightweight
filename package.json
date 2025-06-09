@@ -1,0 +1,49 @@
+{
+  "name": "kuluma-lightweight",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^5.0.1",
+    "@radix-ui/react-dialog": "^1.1.11",
+    "@radix-ui/react-slot": "^1.2.0",
+    "@tanstack/query-sync-storage-persister": "^5.74.6",
+    "@tanstack/react-query": "^5.15.0",
+    "@tanstack/react-query-persist-client": "^5.15.0",
+    "@types/react-window": "^1.8.8",
+    "axios": "^1.6.0",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.503.0",
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-dropzone": "^14.3.8",
+    "react-hook-form": "^7.51.2",
+    "react-virtualized-auto-sizer": "^1.0.26",
+    "react-window": "^1.8.11",
+    "socket.io-client": "^4.7.4",
+    "tailwind-merge": "^3.2.0",
+    "uuid": "^11.1.0",
+    "zod": "^3.23.9",
+    "zustand": "^4.4.0"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "autoprefixer": "^10.4.16",
+    "eslint": "^9",
+    "eslint-config-next": "15.3.1",
+    "tailwindcss": "^4",
+    "tw-animate-css": "^1.2.8",
+    "typescript": "^5"
+  }
+}

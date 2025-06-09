@@ -1,0 +1,74 @@
+# Node modules
+node_modules/
+
+# Build output
+.next/
+out/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Env files
+.env
+.env.*
+
+# VSCode settings
+.vscode/
+
+# Coverage
+coverage/
+
+# Misc
+*.local
+*.log
+
+# TypeScript cache
+*.tsbuildinfo
+
+# SASS cache
+.sass-cache/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Mac system files
+Icon?
+
+# Next.js export
+out/
+
+# Test coverage
+coverage/
+
+# Storybook
+.storybook/
+
+# Playwright
+playwright-report/
+
+# Cypress
+cypress/videos/
+cypress/screenshots/
+
+# IDEs
+.idea/
+*.sw?
+
+# Others
+*.tgz
+
+# Ignore local env files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
