@@ -7,7 +7,7 @@ import { useUserSearch } from "@/hooks/useUserSearch"
 import { useAddWorkspaceUser } from "@/hooks/useAddWorkspaceUser"
 
 interface InviteModalProps {
-  avaterUrl?: string
+  avatarUrl?: string
   displayName?: string
   username?: string
   id?: string
