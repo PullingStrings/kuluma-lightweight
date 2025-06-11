@@ -2,6 +2,7 @@
 // import { readableFileSize } from "@/lib/fileUtils"
 // import { useSignedUrl } from "@/hooks/useSignedUrl"
 // import { useAuthStore } from "@/lib/auth"
+// import Image from "next/image"
 
 export interface ApiFile {
   id: string
