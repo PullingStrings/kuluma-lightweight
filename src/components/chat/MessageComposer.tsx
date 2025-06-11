@@ -25,10 +25,10 @@ export default function MessageComposer({ channelId }: { channelId: string }) {
     register,
     handleSubmit,
     reset,
+    watch,
     formState: { isSubmitting },
   } = useForm<FormData>({ resolver: zodResolver(schema) })
 
-  const { watch } = useForm<FormData>()
   const content = watch("content") // reactive value
 
   useEffect(() => {
